@@ -1,0 +1,47 @@
+@import '../../styles/referents/all';
+
+.footer {
+  background: $color-black;
+  margin-top: 10rem;
+  color: $color-white;
+  padding: 3rem 0 3rem 12rem;
+  width: 100%;
+
+  // > div {
+  //   margin: initial;
+  // }
+
+  &--top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &--bottom {
+    padding: 2rem 0;
+  }
+}
+
+.quick-links {
+  list-style: none; 
+  display: flex;
+  margin: 0;
+
+  li {
+    padding: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li + li a {
+    &::before {
+      content: "";
+      height: 1.2rem;
+      padding-left: 1rem;
+      display: inline-flex;
+      border-left: 1px solid $color-grey;
+    }
+  }
+}

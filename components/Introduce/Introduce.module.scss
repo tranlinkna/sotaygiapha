@@ -1,0 +1,17 @@
+@import "../../styles/referents/all";
+
+.icon-pan_tool_alt {
+    @extend %icon-pan_tool_alt;
+}
+
+.introduce {
+    border: 1px solid $color-red;
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 0 20px;
+
+    .contact {
+        text-align: right;
+        padding-bottom: 20px;
+    }
+}

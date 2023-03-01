@@ -1,0 +1,67 @@
+@import "../../styles/referents/all";
+
+.header {
+  background: $color-white;
+  border-radius: rem(10px);
+  display: flex;
+  justify-content: space-between;
+  min-height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-nav {
+  font-size: rem(18px);
+  font-weight: $weight-semibold;
+  display: flex;
+  align-items: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  li {
+    margin: 0 rem(20px);
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.send-card {
+  background-color: $color-special;
+  display: flex;
+  align-items: center;
+  margin-right: -#{$container-padding-x + 0.1rem};
+  border-radius: 0 $radius-common $radius-common 0;
+  color: $color-white;
+  width: rem(200px);
+  text-align: center;
+  padding: rem(10px) rem(20px);
+  line-height: 1.25;
+  position: relative;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+  }  
+
+  strong {
+    display: block;
+    margin-top: rem(5px);
+  }
+
+  img {
+    width: rem(50px);
+    position: absolute;
+    top: 50%;
+    left: rem(-25px);
+    transform: translateY(-50%);
+  }
+}
+ 

@@ -1,0 +1,26 @@
+@import "../../styles/referents/all";
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: default;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &[data-visible="false"] {
+        display: none;
+    }
+
+    span {
+        background-color: $color-white;
+        padding: rem(10px 40px);
+        border-radius: rem(30px);
+        font-size: rem(20px);
+    }
+}

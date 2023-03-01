@@ -1,0 +1,24 @@
+@import "../../styles/referents/all";
+
+
+.hero-banner {
+  position: relative;
+  margin-top: 20px;
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+  }
+  h1 {
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    margin-top: -25px;
+  }
+}

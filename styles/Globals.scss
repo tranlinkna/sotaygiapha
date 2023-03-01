@@ -1,0 +1,194 @@
+@import "referents/all";
+@import "common/all";
+
+.organization {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+
+    h2 {
+        text-align: center;
+    }
+
+    .organization-root {
+        @include node;
+        margin-bottom: $node-slot-v;
+        &::after {
+            content:'';
+            display: block;
+            width: 1px;
+            height: $node-slot-v;
+            border-left: 1px solid $color-black;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -#{$node-slot-v};
+        }        
+    }
+    ul {
+        @include resetUl;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        margin-top: calc($node-slot-v - 2px);
+        &::after {
+            content: '';
+            display: block;
+            width: calc(100% - 2 * $node-slot-h - $node-width);
+            height: 1px;
+            border-top: 1px solid $color-black;
+            position: absolute;
+            left: 50%;
+            top: -#{$node-slot-v};
+            transform: translateX(-50%);
+        }     
+    }
+    li {
+        @include node;
+        &::before {
+            content:'';
+            display: block;
+            width: 1px;
+            height: $node-slot-v;
+            border-left: 1px solid $color-black;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -#{$node-slot-v};
+        } 
+    }
+
+    & + & {
+        margin-top: (50px);
+    }
+}
+
+.family-tree {
+    // li {
+    //     display: none;
+    // }
+
+    // > ul > li,
+    // > ul > li > ul > li {
+    //     display: block;
+    // }
+}
+
+.node {
+    @include node;
+    margin: 0 0 20px 0;
+}
+
+.modal {
+    &__wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      right: 0;
+      bottom: 0;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      opacity: 0;
+      visibility: hidden;
+      &.show {
+        opacity: 1;
+        visibility: visible;
+      }
+      .modal__mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.5);
+      }
+    }
+
+    &__content {
+      width: 500px;
+      max-width: 96%;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 30;
+      overflow-x: hidden;
+      overflow-y: auto;
+      border: 1px solid rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(1.2);
+      transition: all 0.3s ease;
+      border-radius: 5px;
+
+      h2 {
+        margin: 0;
+      }
+    }
+    &__body {
+      padding: 20px;
+    }
+    &__header {
+      position: relative;
+      padding: 15px 20px 10px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    &__footer {
+      padding: 10px 20px;
+      border-top: 1px solid #ccc;
+      text-align: right;
+
+      button + button {
+        margin-left: 10px;
+      }
+    }
+    
+    &__close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 14px 17px;
+      cursor: pointer;
+    }
+  
+    // &__ok,
+    // &__cancel {
+      // cursor: pointer;
+      // padding: 5px 15px;      
+      // border-radius: 3px;
+      // background-color: #fff;
+      // border: 1px solid #333;
+      // transition: all 0.3s ease;
+    // }
+  
+    // &__ok {
+    //   color: #fff;
+    //   margin-left: 15px;
+    //   background-color: #333;
+    //   &:hover {
+    //     color: #333;
+    //     background-color: #fff;
+    //   }
+    // }
+}
+  
+body.modal {
+  &__open {
+    overflow: hidden;
+    & .modal__content {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+}
+  
+.dialog {
+  position: relative;
+  height: 100%;
+}

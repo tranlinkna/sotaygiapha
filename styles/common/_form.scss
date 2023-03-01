@@ -1,0 +1,94 @@
+$border-control: $color-grey-2;
+$border-control-focus: $color-grey-2;
+$bg-control: $color-white;
+$text-control: $color-black;
+$text-error: $color-error;
+$sign-control: $color-primary;
+$radius-control: $radius-small;
+
+textarea,
+input[type='tel'],
+input[type='password'],
+input[type='email'],
+input[type='text'] {
+  appearance: none;
+  outline: none;
+  border-radius: $radius-control;
+  box-shadow: none;
+  background-color: $bg-control;
+}
+
+input[type='tel'],
+input[type='password'],
+input[type='email'],
+input[type='text'] {
+  line-height: 1;
+  height: rem(40px);
+}
+
+textarea {
+  padding: rem(5px 15px);
+}
+
+select[multiple] {
+  border-radius: 0;
+  max-height: rem(82px);
+}
+
+%form-control-behavior {
+  outline: none;
+
+  &:focus {
+    border: 1px solid $border-control-focus;
+  }
+
+  &.error {
+    border: 1px solid $text-error !important;
+    //background: url("/images/invalid.svg") center right 15px no-repeat;
+    transition: none;
+    padding-right: rem(40px);
+  }
+
+  &.valid {
+    //background: url("/images/valid.svg") center right 15px no-repeat;
+    transition: none;
+    padding-right: rem(40px);
+  }
+}
+
+select[multiple],
+textarea,
+input[type='tel'],
+input[type='password'],
+input[type='email'],
+input[type='text'] {
+  @include media-breakpoint-down(md) {
+    max-width: 100%;
+  }
+
+  padding: rem(0 15px);
+  width: 100%;
+  border: 1px solid $border-control;
+  color: $text-control;
+  font-size: inherit;
+
+  @extend %form-control-behavior;
+}
+
+label {
+  font-weight: $weight-medium;
+  display: block;
+  margin-bottom: rem(5px);
+}
+
+.btn {
+  @extend %cta;
+}
+
+.btn-primary {
+  @extend %cta-1;
+}
+
+.btn-secondary {
+  @extend %cta-2;
+}

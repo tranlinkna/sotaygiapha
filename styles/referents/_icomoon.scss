@@ -1,0 +1,49 @@
+%icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+%icon-airport_shuttle:before {
+  content: "\e900";
+}
+%icon-directions_bus:before {
+  content: "\e901";
+}
+%icon-location_on:before {
+  content: "\e902";
+}
+%icon-call:before {
+  content: "\e903";
+}
+%icon-pan_tool_alt:before {
+  content: "\e904";
+}
+%icon-navigate_next:before {
+  content: "\e905";
+}
+%icon-sync_alt:before {
+  content: "\e906";
+}
+%icon-east_arrow:before {
+  content: "\e907";
+}
+%icon-west_arrow:before {
+  content: "\e908";
+}
+%icon-keyboard_double_arrow_right:before {
+  content: "\e90a";
+}
+%icon-keyboard_arrow_right:before {
+  content: "\e90b";
+}
+
+

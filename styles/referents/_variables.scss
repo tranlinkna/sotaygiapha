@@ -1,0 +1,97 @@
+// ==========================================================================
+// COLOR
+// ==========================================================================
+$color-purple-dark: #280725; 
+$color-purple: #3F173C;
+$color-purple-light: #AA3168;
+$color-red-light: #F44B4F;
+$color-red: #D30D11;
+$color-pink: #F492B9;
+$color-pink-dark: #862752;
+$color-green: #7A8A5D;
+$color-green-dark: #5E6A48;
+$color-nude: #FAE6DB;
+$color-nude-dark: #FBE5D7;
+
+$color-primary: $color-purple-dark;
+
+$color-red: #ed1c24; //yes
+$color-yellow: #fffac8; //yes
+$color-black: #000; //yes
+$color-white: #fff; //yes
+$color-grey: #e2e2e2; //yes
+$color-grey-2: #EAEAEA;
+$color-grey-3: #FFFFFF30;
+$color-special: #F0652B;
+$color-error: #F44B4F;
+
+// ==========================================================================
+// BREAKPOINTS & GRID
+// ==========================================================================
+$grid-breakpoints: (
+  xs: 500px,
+  sm-fls: 550px,
+  sm: 768px,
+  md-fls: 850px,
+  md: 992px
+) !default;
+
+$container-max-widths: (sm: 750px,
+  md: 966px,
+  xl: 1180px,
+) !default;
+
+$container-padding-x: rem(15px);
+$container-big: rem(960px) + 2 * $container-padding-x;
+$container-small: rem(680px) + 2 * $container-padding-x;
+$enable-grid-classes: true;
+
+// ==========================================================================
+// FONT NAME
+// ==========================================================================
+$font-primary: 'tahoma', serif;
+$font-secondary: 'tahoma', serif;
+
+// ==========================================================================
+// FONT WEIGHT
+// ==========================================================================
+$weight-bold: 700;
+$weight-semibold: 600;
+$weight-medium: 500;
+$weight-normal: 400;
+$weight-light: 300;
+
+// ==========================================================================
+// LINE HEIGHT
+// ==========================================================================
+$line-height-1: 1.25; // Heading
+$line-height-2: 1.5; // Text
+$line-height-base: $line-height-2;
+
+// ==========================================================================
+// TRANSITION
+// ==========================================================================
+$cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+$transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-all: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+$border-on-white: 1px solid $color-grey-2;
+$border-on-black: 1px solid $color-grey-3;
+
+// ==========================================================================
+// OTHERS
+// ==========================================================================
+$header-height: rem(120px);
+$radius-xs: rem(2px);
+$container-small: rem(1234px) + 2 * rem($container-padding-x);
+
+$radius-common: rem(10px);
+$radius-small: rem(5px); //yes
+$shadow: 0px 3px 15px 0px rgb(0 0 0 / 10%);
+
+
+//pha he cac dong ho viet nam
+$node-width: rem(178px);
+$node-slot-v: rem(20px);
+$node-slot-h: rem(5px);
+

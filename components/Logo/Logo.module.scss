@@ -1,0 +1,11 @@
+@import '../../styles/referents/all';
+
+.logo {
+  display: flex;
+  align-items: center;
+  
+  img {
+    width: rem(170px);
+    height: auto;
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.eightsolverslabs.benefit.dev",
+            "sha256_cert_fingerprints":
+            ["AF:07:A8:4E:DE:FB:45:72:A6:0B:C6:3E:E5:09:8E:F0:63:B5:2C:9C:B3:D2:36:1D:EE:B4:C8:60:04:27:39:0C"]
+        }  
+    },
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.benefitpocket.dev",
+            "sha256_cert_fingerprints":
+            ["E0:15:7D:C4:17:2E:47:80:E3:72:61:41:21:22:8F:AB:FC:1B:AD:87:2F:17:FF:9D:31:EF:5E:DB:C4:68:56:75"]
+        }  
+    }
+]

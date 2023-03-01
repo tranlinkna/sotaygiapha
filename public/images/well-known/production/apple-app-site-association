@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+      "details": [
+        {
+            "appID": "64X7X4882L.com.8solverslabs.benefit",
+            "paths": ["*"]
+        },
+        {
+            "appID": "9CVSJY2UC3.com.benefitpocket",
+            "paths": ["*"]
+        }        
+      ]
+  }
+}

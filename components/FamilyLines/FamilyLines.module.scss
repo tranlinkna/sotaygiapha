@@ -1,0 +1,19 @@
+@import "../../styles/referents/all";
+
+.family-lines {
+    margin-top: 50px;
+    h2 {
+        text-align: center;
+    }
+    ul {
+        @include resetUl;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 20px;
+    }
+    li {
+        display: block;
+    }
+}
