@@ -16,7 +16,6 @@ type ModalProps = {
 const CLASS_DEFAULT = "modal__wrapper";
 
 const ModalSolution: React.FC<ModalProps> = ({ 
-    children, 
     // isVisible,
     setVisible: any,
     isRenderHeader,
@@ -96,7 +95,8 @@ const ModalSolution: React.FC<ModalProps> = ({
                     }
                     
                     <div className="modal__body">
-                        {children}
+                        <p>Bằng cách nhấn vào nút "Đồng ý" phía dưới, hệ thống sẽ tải tập tin pdf để bạn có thể in ra đóng sổ.</p>
+                        <p>Mỗi một Đời sẽ được in trên 1 trang, số trang càng lớn thời gian tải tập tin pdf càng lâu (100 trang mất khoảng 1 phút).</p>
                     </div>
 
                     <div className="modal__footer">

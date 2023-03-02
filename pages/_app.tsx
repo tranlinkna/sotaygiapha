@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import '../styles/Globals.scss'
 import { Header } from '../components/Header';
-import { SendCard } from '../components/SendCard';
 import { Footer } from '../components/Footer';
 
 export default function App({ Component, pageProps }) {

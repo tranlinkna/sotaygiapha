@@ -59,19 +59,16 @@ const Navigation = () => {
             {
                 openModal &&
                 <Modal isVisible={openModal} isRenderCloseIcon={false} btnCancelText="Hủy bỏ" btnOkText="Đồng ý"
-                onOk={() => {
-                    setOpenModal(false);
-                    setTimeout(() => {
-                    printDocument();
-                    }, 100);                  
-                }}
-                onCancel={() => {
-                    setOpenModal(false);                  
-                }}            
-                >
-                <p>Bằng cách nhấn vào nút "Đồng ý" phía dưới, hệ thống sẽ tải tập tin pdf để bạn có thể in ra đóng sổ.</p>
-                <p>Mỗi một Đời sẽ được in trên 1 trang, số trang càng lớn thời gian tải tập tin pdf càng lâu (100 trang mất khoảng 1 phút).</p>
-                </Modal>
+                    onOk={() => {
+                        setOpenModal(false);
+                        setTimeout(() => {
+                        printDocument();
+                        }, 100);                  
+                    }}
+                    onCancel={() => {
+                        setOpenModal(false);                  
+                    }}            
+                />                    
             }
         </>
     )
