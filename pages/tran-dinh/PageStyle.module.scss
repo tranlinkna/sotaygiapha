@@ -12,15 +12,15 @@
 
 .layout {
     display: flex;
-    padding: 50px;
+    padding: var(--slot);
 
     .family-tree {
         padding-top: 30px;
-        padding-right: 50px;
+        padding-right: var(--slot);
     }
 
     .family-nodes {
-        padding-left: 50px;
+        padding-left: var(--slot);
         border-left: 4px double $color-red;
     }
 }

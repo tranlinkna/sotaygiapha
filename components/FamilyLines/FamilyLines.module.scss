@@ -9,11 +9,15 @@
         @include resetUl;
         font-size: 15px;
         font-weight: 700;
-        line-height: 2.5;
         text-align: center;
         margin-top: 20px;
     }
     li {
         display: block;
+        margin: 1.5rem 0;
+
+        @include media-breakpoint-down(xs) {
+            text-align: left;
+        }
     }
 }

@@ -1,39 +1,44 @@
-:root {   
-    
-    --line-spacing-1: 1.563;
-    
-    --line-spacing-2: 1.2;
-    --size-3: 1.8rem;
-    --line-spacing-3: 1.208;
-    --size-4: 2.8rem;
-    --line-spacing-4: 1.173;
-    --size-5: 4.2rem;
-    --line-spacing-5: 1.232;
-    --size-6: 3.8rem;
-    --line-spacing-6: 1.2;
-    --size-7: 1.2rem;
-    --line-spacing-7: 1.867;
-    --size-8: 1.2rem;
-    --line-spacing-8: 1.2;
-    --size-9: 2.2rem;
-    --line-spacing-9: 1.64;
-    --size-10: 2.8rem;
-    --line-spacing-10: 1.2;
-    --size-11: 2.2rem;
-    --line-spacing-11: 2.55;
-    --size-12: 3.6rem;
-    --line-spacing-12: 1.2;
-    --size-13: 2rem;
-    --line-spacing-13: 1.25;
+:root {
+  --line-spacing-1: 1.563;
 
-    --min-height-cta: 4rem;   
+  --line-spacing-2: 1.2;
+  --size-3: 1.8rem;
+  --line-spacing-3: 1.208;
+  --size-4: 2.8rem;
+  --line-spacing-4: 1.173;
+  --size-5: 4.2rem;
+  --line-spacing-5: 1.232;
+  --size-6: 3.8rem;
+  --line-spacing-6: 1.2;
+  --size-7: 1.2rem;
+  --line-spacing-7: 1.867;
+  --size-8: 1.2rem;
+  --line-spacing-8: 1.2;
+  --size-9: 2.2rem;
+  --line-spacing-9: 1.64;
+  --size-10: 2.8rem;
+  --line-spacing-10: 1.2;
+  --size-11: 2.2rem;
+  --line-spacing-11: 2.55;
+  --size-12: 3.6rem;
+  --line-spacing-12: 1.2;
+  --size-13: 2rem;
+  --line-spacing-13: 1.25;
 
-    --size-1: 1.6rem;
-    --size-2: 4rem;
-    --size-3: 3rem;
-    --size-4: 2rem;
-    --size-5: 1.8rem;
-    --size-6: 2.4rem;
+  --min-height-cta: 4rem;   
 
-    --size-base: 1.4rem;
+  --size-1: 1.6rem;
+  --size-2: 4rem;
+  --size-3: 3rem;
+  --size-4: 2rem;
+  --size-5: 1.8rem;
+  --size-6: 2.4rem;
+
+  --size-base: 1.4rem;
+
+  --slot: 5rem;
+
+  @include media-breakpoint-down(xs) {
+    --slot: 3rem;
   }
+}

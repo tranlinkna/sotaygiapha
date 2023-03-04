@@ -13,7 +13,7 @@ export default function Home() {
   }
 
   return(
-    <div>
+    <div className='homepage'>
       <BannerHero image={bannerInfo.imageBanner} pageTitle={bannerInfo.pageTitle} />
       <Introduce/>
       <FamilyLines/>

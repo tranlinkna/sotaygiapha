@@ -12,7 +12,7 @@
 
 .layout {
     display: flex;
-    padding: 50px;
+    padding: var(--slot);
 
     .family-tree {
         padding-top: 25px;

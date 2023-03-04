@@ -4,8 +4,12 @@
   background: $color-black;
   margin-top: 10rem;
   color: $color-white;
-  padding: 3rem 0 3rem 12rem;
+  padding: 3rem 0 3rem var(--slot);
   width: 100%;
+
+  @include media-breakpoint-down(xs) {
+    padding-left: var(--slot);
+  }
 
   // > div {
   //   margin: initial;

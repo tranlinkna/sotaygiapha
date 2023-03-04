@@ -247,7 +247,7 @@ const genData = [
           mDeathday: '16/08/Mất từ bé (AL)',
           mNote: '',
           follow: [{
-            sName: 'Chồng:',
+            sName: 'Chồng:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -445,7 +445,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Chồng: Nguyễn Thêm',
+            sName: 'Chồng: Nguyễn Thêm',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -681,7 +681,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Chồng:',
+            sName: 'Chồng:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1179,7 +1179,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Chồng:',
+            sName: 'Chồng:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1245,7 +1245,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Chồng: Nguyễn Ngọc Cảnh',
+            sName: 'Chồng: Nguyễn Ngọc Cảnh',
             sBirthday: '19/06/1977 (DL)',
             sDeathday: '',
             sNote: ''
@@ -1317,7 +1317,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Chồng: Dương Quốc Hưng',
+            sName: 'Chồng: Dương Quốc Hưng',
             sBirthday: '',
             sDeathday: '',
             sNote: 'Quê quán Tp Thái Nguyên'
@@ -1373,7 +1373,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Chồng: Vũ Thanh Hải',
+            sName: 'Chồng: Vũ Thanh Hải',
             sBirthday: '1973',
             sDeathday: '',
             sNote: ''
@@ -1529,7 +1529,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Chồng: Đỗ Khắc Tùng',
+            sName: 'Chồng: Đỗ Khắc Tùng',
             sBirthday: '1981',
             sDeathday: '',
             sNote: ''

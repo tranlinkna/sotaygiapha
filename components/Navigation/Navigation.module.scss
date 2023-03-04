@@ -2,11 +2,15 @@
 
 .navigation {
     background-color: $color-red;    
-    padding: 10px 10px 10px 120px;
+    padding: 10px 10px 10px var(--slot);
     display: flex;
     align-items: center;
     margin: initial;
     color: $color-yellow;
+
+    @include media-breakpoint-down(xs) {
+      padding-left: var(--slot);
+    }
 
     a {
         margin: 10px 50px;

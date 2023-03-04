@@ -4,12 +4,19 @@
 .hero-banner {
   position: relative;
   margin-top: 20px;
+  padding: 0;
+
   img {
     width: 100%;
     height: auto;
     display: block;
     margin: auto;
     max-width: 1000px;
+
+    @include media-breakpoint-down(xs) {
+      width: 130%;
+      margin-left: -15%;
+    }
   }
   h1 {
     text-transform: uppercase;
@@ -20,5 +27,12 @@
     font-size: 30px;
     color: white;
     margin-top: -25px;
+    text-align: center;
+
+    @include media-breakpoint-down(xs) {
+      font-size: 24px;
+      margin-top: -14px;
+      max-width: 110px;
+    }
   }
 }

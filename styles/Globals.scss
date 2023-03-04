@@ -1,6 +1,10 @@
 @import "referents/all";
 @import "common/all";
 
+.homepage {
+  padding: 0 1rem 10rem 1rem;
+}
+
 .organization {
     display: flex;
     justify-content: center;
