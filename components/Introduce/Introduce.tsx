@@ -6,6 +6,7 @@ const Introduce = () => {
   return (
     <div className={'container ' + styles['introduce']}>   
       <h2>Sổ tay gia phả giúp bạn:</h2>
+      <p><span className={'icon ' + styles['icon-pan_tool_alt']}></span> Tiện cho con cháu xem ngày mất của các cụ.</p>
       <p><span className={'icon ' + styles['icon-pan_tool_alt']}></span> Dễ dàng xem phả đồ dòng họ dưới dạng cây gia phả.</p>
       <p><span className={'icon ' + styles['icon-pan_tool_alt']}></span> Xem chi tiết các đời của dòng họ. </p>
       <p><span className={'icon ' + styles['icon-pan_tool_alt']}></span> In quyển đóng sổ gia phả.</p>

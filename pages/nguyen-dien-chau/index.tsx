@@ -364,7 +364,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-2',
         info: {
-          mName: 'Bà: Nguyễn Thị',
+          mName: 'Bà: Nguyễn Thị',
           mBirthday: '',
           mDeathday: '',
           mNote: 'Tảo sinh',
@@ -700,7 +700,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-1',
         info: {
-          mName: 'Bà: Nguyễn Thị Từ',
+          mName: 'Bà: Nguyễn Thị Từ',
           mBirthday: '',
           mDeathday: '15/07 (AL)',
           mNote: 'Tảo sinh',
@@ -816,7 +816,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-3',
         info: {
-          mName: 'Bà: Nguyễn Thị Lịnh',
+          mName: 'Bà: Nguyễn Thị Lịnh',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -2032,7 +2032,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-4-5',
         info: {
-          mName: 'Bà: Nguyễn Thị Nga',
+          mName: 'Bà: Nguyễn Thị Nga',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -2488,7 +2488,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-2-4-8',
         info: {
-          mName: 'Bà: Nguyễn Thị Phượng',
+          mName: 'Bà: Nguyễn Thị Phượng',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -2782,7 +2782,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-3-2-3',
         info: {
-          mName: 'Bà: Nguyễn Thị Tài',
+          mName: 'Bà: Nguyễn Thị Tài',
           mBirthday: '1953',
           mDeathday: '',
           mNote: '',
@@ -2862,7 +2862,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-3-2-8',
         info: {
-          mName: 'Bà: Nguyễn Thị Tám',
+          mName: 'Bà: Nguyễn Thị Tám',
           mBirthday: '1966',
           mDeathday: '',
           mNote: '',
@@ -3602,7 +3602,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-2-4-1-1',
         info: {
-          mName: 'Bà: Nguyễn Thị Hương',
+          mName: 'Bà: Nguyễn Thị Hương',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3750,7 +3750,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-2-4-7-2',
         info: {
-          mName: 'Bà: Nguyễn Thị Mỹ',
+          mName: 'Bà: Nguyễn Thị Mỹ',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3916,7 +3916,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-2-7-2-1',
         info: {
-          mName: 'Bà: Nguyễn Thị ...',
+          mName: 'Bà: Nguyễn Thị ...',
           mBirthday: '',
           mDeathday: '',
           mNote: '',

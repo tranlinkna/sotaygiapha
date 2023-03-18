@@ -35,7 +35,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: ',
+            sName: 'Vợ: ',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -51,7 +51,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Thái Thị Bảy',
+            sName: 'Vợ: Thái Thị Bảy',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -67,7 +67,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Thái Thị Chín',
+            sName: 'Vợ: Thái Thị Chín',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -83,7 +83,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -102,7 +102,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ: ',
+        sName: 'Vợ: ',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -133,7 +133,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -165,7 +165,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -184,7 +184,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ: Thái Thị Bảy',
+        sName: 'Vợ: Thái Thị Bảy',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -215,7 +215,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Tống Thị Bốn',
+            sName: 'Vợ: Tống Thị Bốn',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -258,12 +258,12 @@ const genData = [
       {
         id: '1-2-5',
         info: {
-          mName: 'Ông: Trần Đình Trới',
+          mName: 'Ông: Trần Đình Trới',
           mBirthday: '1907',
           mDeathday: '18/08/2002 (AL)',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Trần Thị Gái',
+            sName: 'Vợ: Trần Thị Gái',
             sBirthday: '1911',
             sDeathday: '07/11/1994 (AL)',
             sNote: ''
@@ -298,7 +298,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ: Thái Thị Chín',
+        sName: 'Vợ: Thái Thị Chín',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -313,7 +313,7 @@ const genData = [
           mDeathday: '03/12/1983 (AL)',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Nguyễn Thị Thu',
+            sName: 'Vợ: Nguyễn Thị Thu',
             sBirthday: '1924',
             sDeathday: '12/04/2012',
             sNote: ''
@@ -332,7 +332,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ:',
+        sName: 'Vợ:',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -414,7 +414,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ:',
+        sName: 'Vợ:',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -440,7 +440,7 @@ const genData = [
       {
         id: '1-1-2-2',
         info: {
-          mName: 'Bà: Trần Thị Thủy',
+          mName: 'Bà: Trần Thị Thủy',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -464,7 +464,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ:',
+        sName: 'Vợ:',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -530,7 +530,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ: Tống Thị Bốn',
+        sName: 'Vợ: Tống Thị Bốn',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -695,12 +695,12 @@ const genData = [
     title: 'Đời thứ <3 - 5>',
     id: '1-2-5',
     info: {
-      mName: 'Ông: Trần Đình Trới',
+      mName: 'Ông: Trần Đình Trới',
       mBirthday: '1907',
       mDeathday: '18/08/2002 (AL)',
       mNote: '',
       follow: [{
-        sName: 'Vợ: Trần Thị Gái',
+        sName: 'Vợ: Trần Thị Gái',
         sBirthday: '1911',
         sDeathday: '07/11/1994 (AL)',
         sNote: ''
@@ -731,13 +731,13 @@ const genData = [
           mDeathday: '08/04/2014',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Dương Thị Bích Lợi',
+            sName: 'Vợ: Dương Thị Bích Lợi',
             sBirthday: '20/07/1947',
             sDeathday: '',
             sNote: ''
           },
           {
-            sName: 'Vợ: Phan Thị Hương',
+            sName: 'Vợ: Phan Thị Hương',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -804,7 +804,7 @@ const genData = [
       mDeathday: '03/12/1983 (AL)',
       mNote: '',
       follow: [{
-        sName: 'Vợ: Nguyễn Thị Thu',
+        sName: 'Vợ: Nguyễn Thị Thu',
         sBirthday: '1924',
         sDeathday: '12/04/2012',
         sNote: ''
@@ -835,7 +835,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Dương Lệ Minh',
+            sName: 'Vợ: Dương Lệ Minh',
             sBirthday: '10/09/1950 (DL)',
             sDeathday: '',
             sNote: ''
@@ -1013,7 +1013,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1063,7 +1063,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1163,7 +1163,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Nguyễn Thị Bích Thủy',
+            sName: 'Vợ: Nguyễn Thị Bích Thủy',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1195,7 +1195,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: ',
+            sName: 'Vợ: ',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1352,13 +1352,13 @@ const genData = [
       mDeathday: '08/04/2014',
       mNote: '',
       follow: [{
-        sName: 'Vợ: Dương Thị Bích Lợi',
+        sName: 'Vợ: Dương Thị Bích Lợi',
         sBirthday: '20/07/1947',
         sDeathday: '',
         sNote: ''
       },
       {
-        sName: 'Vợ: Phan Thị Hương',
+        sName: 'Vợ: Phan Thị Hương',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -1388,7 +1388,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Nguyễn Thị Thúy Vân',
+            sName: 'Vợ: Nguyễn Thị Thúy Vân',
             sBirthday: '01/06/1978 (DL)',
             sDeathday: '',
             sNote: ''
@@ -1403,7 +1403,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1418,7 +1418,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1466,7 +1466,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1484,7 +1484,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Vợ: Dương Lệ Minh',
+        sName: 'Vợ: Dương Lệ Minh',
         sBirthday: '10/09/1950 (DL)',
         sDeathday: '',
         sNote: ''
@@ -1514,7 +1514,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1592,7 +1592,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Đào Thị Phương',
+            sName: 'Vợ: Đào Thị Phương',
             sBirthday: '11/10/1989',
             sDeathday: '',
             sNote: ''
@@ -1607,7 +1607,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Nguyễn Thị Bé Vân',
+            sName: 'Vợ: Nguyễn Thị Bé Vân',
             sBirthday: '1995',
             sDeathday: '',
             sNote: ''
@@ -1688,7 +1688,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1736,7 +1736,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1769,7 +1769,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1784,7 +1784,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1832,7 +1832,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1847,7 +1847,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1883,7 +1883,7 @@ let genDataTree = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: ',
+            sName: 'Vợ: ',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1899,7 +1899,7 @@ let genDataTree = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Thái Thị Bảy',
+            sName: 'Vợ: Thái Thị Bảy',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1915,7 +1915,7 @@ let genDataTree = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ: Thái Thị Chín',
+            sName: 'Vợ: Thái Thị Chín',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1931,7 +1931,7 @@ let genDataTree = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Vợ:',
+            sName: 'Vợ:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
