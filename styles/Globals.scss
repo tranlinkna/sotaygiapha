@@ -29,68 +29,72 @@ h2 {
 }
 
 .organization {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: auto;
+  margin-left: calc(-#{$node-slot-h} / 2);;
 
-    h2 {
-        text-align: center;
-    }
+  h2 {
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem;
+      margin-left: calc($node-slot-h / 2);
+  }
 
-    .organization-root {
-        @include node;
-        margin-bottom: $node-slot-v;
-        &::after {
-            content:'';
-            display: block;
-            width: 1px;
-            height: $node-slot-v;
-            border-left: 1px solid $color-black;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -#{$node-slot-v};
-        }        
-    }
-    ul {
-        @include resetUl;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        position: relative;
-        margin-top: calc($node-slot-v - 2px);
-        &::after {
-            content: '';
-            display: block;
-            width: calc(100% - 2 * $node-slot-h - $node-width);
-            height: 1px;
-            border-top: 1px solid $color-black;
-            position: absolute;
-            left: 50%;
-            top: -#{$node-slot-v};
-            transform: translateX(-50%);
-        }     
-    }
-    li {
-        @include node;
-        &::before {
-            content:'';
-            display: block;
-            width: 1px;
-            height: $node-slot-v;
-            border-left: 1px solid $color-black;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: -#{$node-slot-v};
-        } 
-    }
+  .organization-root {
+      @include node;
+      margin-bottom: $node-slot-v;
+      &::after {
+          content:'';
+          display: block;
+          width: 1px;
+          height: $node-slot-v;
+          border-left: 1px solid $color-black;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -#{$node-slot-v};
+      }        
+  }
+  ul {
+      @include resetUl;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      position: relative;
+      margin-top: calc($node-slot-v - 2px);
+      &::after {
+          content: '';
+          display: block;
+          width: calc(100% - 2 * $node-slot-h - $node-width);
+          height: 1px;
+          border-top: 1px solid $color-black;
+          position: absolute;
+          left: 50%;
+          top: -#{$node-slot-v};
+          transform: translateX(-50%);
+      }     
+  }
+  li {
+      @include node;
+      &::before {
+          content:'';
+          display: block;
+          width: 1px;
+          height: $node-slot-v;
+          border-left: 1px solid $color-black;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: -#{$node-slot-v};
+      } 
+  }
 
-    & + & {
-        margin-top: (50px);
-    }
+  & + & {
+      margin-top: (50px);
+  }
 }
 
 .layout {
