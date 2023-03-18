@@ -2018,7 +2018,7 @@ const FamilyLine = () => {
           </div>
 
           <div className={'family-nodes'}>  
-            <PageTitle familyName='Nguyễn - Diễn Lộc, Diễn Châu, Nghệ An' generations={generations()} menNumber={genData.length}/>      
+            <PageTitle familyName='Trần Đình - Đức Vĩnh, Đức Thọ, Hà Tĩnh' generations={generations()} menNumber={genData.length}/>      
             {genData.map((el, index) => (
               <div className='organization' key={index}> 
                 <h2>{el.title}</h2>
