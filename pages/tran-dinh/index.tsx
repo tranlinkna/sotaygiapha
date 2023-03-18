@@ -5,9 +5,7 @@ import styles from './PageStyle.module.scss';
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Navigation from "../../components/Navigation";
-
-
-
+import PageTitle from "../../components/PageTitle";
 import TreeView from 'react-expandable-treeview';
 
 const genData = [ 
@@ -1959,6 +1957,11 @@ function genNodeTree() {
   }; 
 }
 
+function generations() {
+  let lastId = genData[genData.length - 1].id;
+  return lastId.split('-').length;
+}
+
 const FamilyLine = () => {  
 
   ToTop();
@@ -1990,8 +1993,8 @@ const FamilyLine = () => {
 
         <Navigation />
 
-        <div className={styles['layout']}>
-          <div className={styles['family-tree']}>
+        <div className={'layout'}>
+          <div className={'family-tree'}>
           <TreeView lineWidth={1} lineAlpha={2}
               data={genDataTree}
               renderNode={({ info }) => (
@@ -2014,7 +2017,8 @@ const FamilyLine = () => {
           />
           </div>
 
-          <div className={styles['family-nodes']}>        
+          <div className={'family-nodes'}>  
+            <PageTitle familyName='Nguyễn - Diễn Lộc, Diễn Châu, Nghệ An' generations={generations()} menNumber={genData.length}/>      
             {genData.map((el, index) => (
               <div className='organization' key={index}> 
                 <h2>{el.title}</h2>

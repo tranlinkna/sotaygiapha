@@ -5,6 +5,7 @@ import styles from './PageStyle.module.scss';
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Navigation from "../../components/Navigation";
+import PageTitle from "../../components/PageTitle";
 import TreeView from 'react-expandable-treeview';
 
 const genData = [ 
@@ -3075,12 +3076,12 @@ const genData = [
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-3-6-2',
         info: {
           mName: 'Ông: Nguyễn Ngọc Hưng',
-          mBirthday: '1981',
+          mBirthday: '02/12/1981',
           mDeathday: '',
           mNote: '',
           follow: [{
             sName: 'Vợ: Nguyễn Ngọc Tươi',
-            sBirthday: '1983',
+            sBirthday: '09/09/1983',
             sDeathday: '',
             sNote: ''
           }]
@@ -4598,12 +4599,12 @@ const genData = [
     id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-3-6-2',
     info: {
       mName: 'Ông: Nguyễn Ngọc Hưng',
-      mBirthday: '1981',
+      mBirthday: '02/12/1981',
       mDeathday: '',
       mNote: '',
       follow: [{
         sName: 'Vợ: Nguyễn Ngọc Tươi',
-        sBirthday: '1983',
+        sBirthday: '09/09/1983',
         sDeathday: '',
         sNote: ''
       }]
@@ -4613,7 +4614,7 @@ const genData = [
         id: '',
         info: {
           mName: 'Ông: Nguyễn Ngọc Sáng',
-          mBirthday: '2010',
+          mBirthday: '22/09/2010',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -4862,6 +4863,11 @@ function genNodeTree() {
   }; 
 }
 
+function generations() {
+  let lastId = genData[genData.length - 1].id;
+  return lastId.split('-').length;
+}
+
 const FamilyLine = () => {  
 
   ToTop();
@@ -4893,8 +4899,8 @@ const FamilyLine = () => {
 
         <Navigation />
 
-        <div className={styles['layout']}>
-          <div className={styles['family-tree']}>
+        <div className={'layout'}>
+          <div className={'family-tree'}>
           <TreeView lineWidth={1} lineAlpha={2}
               data={genDataTree}
               renderNode={({ info }) => (
@@ -4917,7 +4923,8 @@ const FamilyLine = () => {
           />
           </div>
 
-          <div className={styles['family-nodes']}>        
+          <div className={'family-nodes'}>  
+            <PageTitle familyName='Nguyễn - Diễn Lộc, Diễn Châu, Nghệ An' generations={generations()} menNumber={genData.length}/>
             {genData.map((el, index) => (
               <div className='organization' key={index}> 
                 <h2>{el.title}</h2>

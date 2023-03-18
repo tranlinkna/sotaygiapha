@@ -9,18 +9,3 @@
     // align-items: center;
     // justify-content: center;
 }
-
-.layout {
-    display: flex;
-    padding: var(--slot);
-
-    .family-tree {
-        padding-top: 30px;
-        padding-right: var(--slot);
-    }
-
-    .family-nodes {
-        padding-left: var(--slot);
-        border-left: 4px double $color-red;
-    }
-}

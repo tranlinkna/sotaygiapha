@@ -9,18 +9,3 @@
     // align-items: center;
     // justify-content: center;
 }
-
-.layout {
-    display: flex;
-    padding: var(--slot);
-
-    .family-tree {
-        padding-top: 25px;
-        padding-right: 50px;
-    }
-
-    .family-nodes {
-        padding-left: 50px;
-        border-left: 4px double $color-red;
-    }
-}
