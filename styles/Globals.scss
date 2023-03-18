@@ -8,8 +8,14 @@
 .page-title {
   text-transform: uppercase;
   color: $color-red;
-  margin-bottom: 2rem;
-  line-height: 1.5;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  font-size: 1.4em;
+
+  @include media-breakpoint-up(sm) {
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
 }
 
 .organization {
@@ -75,17 +81,6 @@
     & + & {
         margin-top: (50px);
     }
-}
-
-.family-tree {
-    // li {
-    //     display: none;
-    // }
-
-    // > ul > li,
-    // > ul > li > ul > li {
-    //     display: block;
-    // }
 }
 
 .layout {
