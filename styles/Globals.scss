@@ -102,12 +102,12 @@ h2 {
   padding: var(--slot);
 
   .family-tree {
-      padding-top: 2rem;
+      padding-top: 1rem;
       padding-right: var(--slot);
   }
 
   .family-nodes {
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-left: var(--slot);
     border-left: 4px double $color-red;
   }
