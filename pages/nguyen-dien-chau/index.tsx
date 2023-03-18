@@ -13,7 +13,7 @@ const genData = [
     title: 'Đời thứ <1>',
     id: '1',
     info: {
-      mName: 'Thủy Tổ: Nguyễn Phúc Tiến',
+      mName: 'Th.Tổ: Nguyễn Phúc Tiến',
       mBirthday: '',
       mDeathday: '',
       mNote:'',
@@ -4767,7 +4767,7 @@ let genDataTree = [
     title: 'Đời thứ <1>',
     id: '1',
     info: {
-      mName: 'Thủy Tổ: Nguyễn Phúc Tiến',
+      mName: 'Th.Tổ: Nguyễn Phúc Tiến',
       mBirthday: '',
       mDeathday: '',
       mNote:'',

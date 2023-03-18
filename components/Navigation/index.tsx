@@ -50,7 +50,7 @@ const Navigation = () => {
         <>
             <div className={styles['navigation']}>
                 <h1>SỔ TAY GIA PHẢ</h1>
-                <Link href="/">Trang chủ</Link>
+                <Link href="/">TRANG CHỦ</Link>
                 <button className='btn btn-primary' onClick={() => {setOpenModal(true);}}>In sổ gia phả</button>       
             </div>
 

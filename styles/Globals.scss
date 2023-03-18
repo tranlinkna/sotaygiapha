@@ -9,12 +9,12 @@
   text-transform: uppercase;
   color: $color-red;
   margin-bottom: 1rem;
-  line-height: 1.25;
-  font-size: 1.4em;
+  line-height: 1.35;
+  font-size: 1.2em;
 
   @include media-breakpoint-up(sm) {
-    line-height: 1.5;
     margin-bottom: 2rem;
+    font-size: 1.4em;
   }
 }
 
