@@ -5,16 +5,26 @@
   padding: 0 1rem 10rem 1rem;
 }
 
+h1 {
+  font-size: var(--size-h1);
+  margin: 0;
+}
+h2 {
+  font-size: var(--size-h2);
+  margin: 0;
+}
+
 .page-title {
   text-transform: uppercase;
   color: $color-red;
-  margin-bottom: 1rem;
-  line-height: 1.35;
-  font-size: 1.2em;
+  margin-bottom: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  font-size: 1.4rem;
 
   @include media-breakpoint-up(sm) {
-    margin-bottom: 2rem;
-    font-size: 1.4em;
+    font-size: 2rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -88,13 +98,14 @@
   padding: var(--slot);
 
   .family-tree {
-      padding-top: 20px;
-      padding-right: 50px;
+      padding-top: 2rem;
+      padding-right: var(--slot);
   }
 
   .family-nodes {
-      padding-left: 50px;
-      border-left: 4px double $color-red;
+    padding-top: 2rem;
+    padding-left: var(--slot);
+    border-left: 4px double $color-red;
   }
 }
 
