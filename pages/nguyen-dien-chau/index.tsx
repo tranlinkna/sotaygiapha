@@ -435,7 +435,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-6',
         info: {
-          mName: 'Ông: Thứ Ba',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -451,7 +451,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-7',
         info: {
-          mName: 'Ông: Thứ Tư',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -467,7 +467,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-8',
         info: {
-          mName: 'Ông: Thứ Năm',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -483,7 +483,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-9',
         info: {
-          mName: 'Ông: Thứ Sáu',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -739,7 +739,7 @@ const genData = [
           mNote: '',
           follow: [{
             sName: 'Vợ: Phạm Thị Yên',
-            sBirthday: '13/08 (AL)',
+            sBirthday: '13/08 (DL)',
             sDeathday: '',
             sNote: 'Chính thất'
           },
@@ -764,7 +764,7 @@ const genData = [
       mNote: '',
       follow: [{
         sName: 'Vợ: Phạm Thị Yên',
-        sBirthday: '13/08 (AL)',
+        sBirthday: '13/08 (DL)',
         sDeathday: '',
         sNote: 'Chính thất'
       },
@@ -800,13 +800,13 @@ const genData = [
           mDeathday: '10/07 (AL)',
           mNote: '',
           follow: [{
-            sName: 'Nguyễn Thị Chân',
+            sName: 'Vợ: Nguyễn Thị Chân',
             sBirthday: '',
             sDeathday: '15/06 (AL)',
             sNote: ''
           },
           {
-            sName: 'Vũ Thị Nghiêm',
+            sName: 'Vợ: Vũ Thị Nghiêm',
             sBirthday: '',
             sDeathday: '09/09 (AL)',
             sNote: ''
@@ -905,7 +905,7 @@ const genData = [
       mDeathday: '10/07 (AL)',
       mNote: '',
       follow: [{
-        sName: 'Nguyễn Thị Chân',
+        sName: 'Vợ: Nguyễn Thị Chân',
         sBirthday: '',
         sDeathday: '15/06 (AL)',
         sNote: ''
@@ -1168,7 +1168,7 @@ const genData = [
           mDeathday: '27/09 (AL)',
           mNote: 'Tảo sinh',
           follow: [{
-            sName: 'Vợ:',
+            sName: '',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1199,12 +1199,12 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Hữu Nghị',
           mBirthday: 'năm Kỷ Tỵ',
-          mDeathday: '04/03',
+          mDeathday: '04/03 (AL)',
           mNote: 'Mất năm Giáp Thìn',
           follow: [{
             sName: 'Vợ: Phan Thị Lệnh',
             sBirthday: '',
-            sDeathday: '18/11/1947',
+            sDeathday: '18/11/1947 (AL)',
             sNote: 'Thọ 86 tuổi'
           }]
         },
@@ -1282,12 +1282,12 @@ const genData = [
     info: {
       mName: 'Ông: Nguyễn Hữu Nghị',
       mBirthday: 'năm Kỷ Tỵ',
-      mDeathday: '04/03',
+      mDeathday: '04/03 (AL)',
       mNote: 'Mất năm Giáp Thìn',
       follow: [{
         sName: 'Vợ: Phan Thị Lệnh',
         sBirthday: '',
-        sDeathday: '18/11/1947',
+        sDeathday: '18/11/1947 (AL)',
         sNote: 'Thọ 86 tuổi'
       }]
     },
@@ -1322,7 +1322,7 @@ const genData = [
           mDeathday: '26/11/1956 (AL)',
           mNote: 'Thọ 74 tuổi',
           follow: [{
-            sName: 'Cao Thị Phương',
+            sName: 'Vợ: Cao Thị Phương',
             sBirthday: '',
             sDeathday: '16/05/1945 (AL)',
             sNote: ''
@@ -1335,12 +1335,12 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Hữu Ngô',
           mBirthday: '1897',
-          mDeathday: '07/09/1977',
+          mDeathday: '07/09/1977 (AL)',
           mNote: 'Thọ 81 tuổi',
           follow: [{
-            sName: 'Hoàng Thị Cúc',
+            sName: 'Vợ: Hoàng Thị Cúc',
             sBirthday: '1896',
-            sDeathday: '13/10/1960',
+            sDeathday: '13/10/1960 (AL)',
             sNote: 'Thọ 64 tuổi'
           }]
         },
@@ -1354,7 +1354,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: '',
+            sName: 'Chồng:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1399,7 +1399,7 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Tụy',
           mBirthday: '',
-          mDeathday: '??/?? (AL)',
+          mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
             sName: '',
@@ -1415,7 +1415,7 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Tùy',
           mBirthday: '',
-          mDeathday: '??/??',
+          mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
             sName: '',
@@ -1431,7 +1431,7 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Lưu',
           mBirthday: '',
-          mDeathday: '??/??',
+          mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
             sName: '',
@@ -1447,7 +1447,7 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Khởi',
           mBirthday: '',
-          mDeathday: '??/??',
+          mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
             sName: '',
@@ -1503,7 +1503,7 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Thông',
           mBirthday: '',
-          mDeathday: '??/??',
+          mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
             sName: '',
@@ -1524,7 +1524,7 @@ const genData = [
           follow: [{
             sName: 'Vợ: Nguyễn Thị Hảo',
             sBirthday: '1920',
-            sDeathday: '26/09/2014',
+            sDeathday: '26/09/2014 (AL)',
             sNote: 'Thọ 95 tuổi'
           }]
         },
@@ -1611,7 +1611,7 @@ const genData = [
       mDeathday: '26/11/1956 (AL)',
       mNote: 'Thọ 74 tuổi',
       follow: [{
-        sName: 'Cao Thị Phương',
+        sName: 'Vợ: Cao Thị Phương',
         sBirthday: '',
         sDeathday: '16/05/1945 (AL)',
         sNote: ''
@@ -1687,7 +1687,7 @@ const genData = [
         info: {
           mName: 'Ông: Nguyễn Niêm',
           mBirthday: '',
-          mDeathday: '??/?? (AL)',
+          mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
             sName: '',
@@ -1738,12 +1738,12 @@ const genData = [
     info: {
       mName: 'Ông: Nguyễn Hữu Ngô',
       mBirthday: '1897',
-      mDeathday: '07/09/1977',
+      mDeathday: '07/09/1977 (AL)',
       mNote: 'Thọ 81 tuổi',
       follow: [{
         sName: 'Vợ: Hoàng Thị Cúc',
         sBirthday: '1896',
-        sDeathday: '13/10/1960',
+        sDeathday: '13/10/1960 (AL)',
         sNote: 'Thọ 64 tuổi'
       }]
     },
@@ -1857,7 +1857,7 @@ const genData = [
       follow: [{
         sName: 'Vợ: Nguyễn Thị Hảo',
         sBirthday: '1920',
-        sDeathday: '26/09/2014',
+        sDeathday: '26/09/2014 (AL)',
         sNote: 'Thọ 95 tuổi'
       }]
     },
@@ -1914,7 +1914,7 @@ const genData = [
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-3-4',
         info: {
           mName: 'Ông: Nguyễn Bình Định',
-          mBirthday: '15/08/1960',
+          mBirthday: '15/08/1960 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -2268,7 +2268,7 @@ const genData = [
           mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
-            sName: '',
+            sName: '',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -2430,7 +2430,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Nguyễn Thị Vựng',
+            sName: 'Vợ: Nguyễn Thị Vựng',
             sBirthday: '1957',
             sDeathday: '',
             sNote: ''
@@ -2478,7 +2478,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: 'Hoàng Thị Hà',
+            sName: 'Vợ: Hoàng Thị Hà',
             sBirthday: '1963',
             sDeathday: '',
             sNote: ''
@@ -2526,7 +2526,7 @@ const genData = [
           mDeathday: '',
           mNote: 'Tảo sinh',
           follow: [{
-            sName: '',
+            sName: '',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -3076,12 +3076,12 @@ const genData = [
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-3-6-2',
         info: {
           mName: 'Ông: Nguyễn Ngọc Hưng',
-          mBirthday: '02/12/1981',
+          mBirthday: '02/12/1981 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
             sName: 'Vợ: Nguyễn Ngọc Tươi',
-            sBirthday: '09/09/1983',
+            sBirthday: '09/09/1983 (DL)',
             sDeathday: '',
             sNote: ''
           }]
@@ -3111,7 +3111,7 @@ const genData = [
     id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-3-4',
     info: {
       mName: 'Ông: Nguyễn Bình Định',
-      mBirthday: '15/08/1960',
+      mBirthday: '15/08/1960 (DL)',
       mDeathday: '',
       mNote: '',
       follow: [{
@@ -3126,7 +3126,7 @@ const genData = [
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-3-4-1',
         info: {
           mName: 'Ông: Nguyễn Văn Sơn',
-          mBirthday: '28/01/1982',
+          mBirthday: '28/01/1982 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -3142,7 +3142,7 @@ const genData = [
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-3-4-2',
         info: {
           mName: 'Bà: Nguyễn Thị Lệ Thủy',
-          mBirthday: '02/05/1984',
+          mBirthday: '02/05/1984 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -3158,7 +3158,7 @@ const genData = [
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-3-4-3',
         info: {
           mName: 'Bà: Nguyễn Thị Thúy Vân',
-          mBirthday: '10/10/1988',
+          mBirthday: '10/10/1988 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -3241,7 +3241,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-4-6-1',
         info: {
-          mName: 'Ông: Thứ Nhất',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3257,7 +3257,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-4-6-2',
         info: {
-          mName: 'Ông: Thứ Hai',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3273,7 +3273,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-4-6-3',
         info: {
-          mName: 'Ông: Thứ Ba',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3307,7 +3307,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-7-2-1',
         info: {
-          mName: 'Ông: Thứ Nhất',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3323,12 +3323,12 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-7-2-2',
         info: {
-          mName: 'Ông: Thứ Hai',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: '',
+            sName: 'Vợ: ',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -3339,7 +3339,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-7-2-3',
         info: {
-          mName: 'Ông: Thứ Ba',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3373,12 +3373,12 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-7-3-1',
         info: {
-          mName: 'Ông: Thứ Nhất',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: '',
+            sName: 'Vợ: ',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -3389,7 +3389,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-7-3-2',
         info: {
-          mName: 'Ông: Thứ Hai',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3405,7 +3405,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-7-3-3',
         info: {
-          mName: 'Ông: Thứ Ba',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3608,7 +3608,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: '',
+            sName: 'Chồng:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -3624,7 +3624,7 @@ const genData = [
           mDeathday: '',
           mNote: '',
           follow: [{
-            sName: '',
+            sName: 'Chồng:',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -3701,7 +3701,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-2-4-6-2',
         info: {
-          mName: 'Ông: Thứ Hai',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3725,7 +3725,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Hoàng Thị Hà',
+        sName: 'Vợ: Hoàng Thị Hà',
         sBirthday: '1963',
         sDeathday: '',
         sNote: ''
@@ -3767,7 +3767,7 @@ const genData = [
       {
         id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-2-4-7-3',
         info: {
-          mName: 'Ông: Thứ Ba',
+          mName: 'Ông:',
           mBirthday: '',
           mDeathday: '',
           mNote: '',
@@ -3791,7 +3791,7 @@ const genData = [
       mDeathday: '',
       mNote: '',
       follow: [{
-        sName: 'Nguyễn Thị Vựng',
+        sName: 'Vợ: Nguyễn Thị Vựng',
         sBirthday: '1957',
         sDeathday: '',
         sNote: ''
@@ -4599,12 +4599,12 @@ const genData = [
     id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-3-6-2',
     info: {
       mName: 'Ông: Nguyễn Ngọc Hưng',
-      mBirthday: '02/12/1981',
+      mBirthday: '02/12/1981 (DL)',
       mDeathday: '',
       mNote: '',
       follow: [{
         sName: 'Vợ: Nguyễn Ngọc Tươi',
-        sBirthday: '09/09/1983',
+        sBirthday: '09/09/1983 (DL)',
         sDeathday: '',
         sNote: ''
       }]
@@ -4614,7 +4614,7 @@ const genData = [
         id: '',
         info: {
           mName: 'Ông: Nguyễn Ngọc Sáng',
-          mBirthday: '22/09/2010',
+          mBirthday: '22/09/2010 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -4633,7 +4633,7 @@ const genData = [
     id: '1-1-1-2-2-1-1-5-9-3-2-2-1-1-1-3-4-1',
     info: {
       mName: 'Ông: Nguyễn Văn Sơn',
-      mBirthday: '28/01/1982',
+      mBirthday: '28/01/1982 (DL)',
       mDeathday: '',
       mNote: '',
       follow: [{
@@ -4933,14 +4933,14 @@ const FamilyLine = () => {
                     <p>{el.info.mName}</p>
                     <p>Sinh: {el.info.mBirthday}</p>
                     <p>Mất: {el.info.mDeathday}</p>
-                    <p>Tiểu sử:  {el.info.mNote} </p>
+                    <p>Ghi chú:  {el.info.mNote} </p>
                   </div>
                   {el.info.follow.map((el1, index1) => ( el1.sName.length > 0 && 
                     <div key={index1} className='secondary-info'>
                       <p>{el1.sName}</p>
                       <p>Sinh: {el1.sBirthday}</p>
                       <p>Mất: {el1.sDeathday}</p>
-                      <p>Tiểu sử: {el1.sNote}</p>
+                      <p>Ghi chú: {el1.sNote}</p>
                     </div>
                   ))}
                 </div>
@@ -4951,14 +4951,14 @@ const FamilyLine = () => {
                       <p>{el2.info.mName}</p>
                       <p>Sinh: {el2.info.mBirthday}</p>
                       <p>Mất: {el2.info.mDeathday}</p>
-                      <p>Tiểu sử: {el2.info.mNote} </p>
+                      <p>Ghi chú: {el2.info.mNote} </p>
                     </div>
                     {el2.info.follow.map((el3, index3) => (el3.sName.length > 0 && 
                       <div key={index3} className='secondary-info'>
                         <p>{el3.sName}</p>
                         <p>Sinh: {el3.sBirthday}</p>
                         <p>Mất: {el3.sDeathday}</p>
-                        <p>Tiểu sử: {el3.sNote}</p>
+                        <p>Ghi chú: {el3.sNote}</p>
                       </div>
                     ))}
                   </li>

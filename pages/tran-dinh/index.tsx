@@ -242,10 +242,10 @@ const genData = [
         info: {
           mName: 'Bà: Trần Thị Tứ',
           mBirthday: '',
-          mDeathday: '16/08/Mất từ bé (AL)',
-          mNote: '',
+          mDeathday: '16/08 (AL)',
+          mNote: 'Mất từ bé',
           follow: [{
-            sName: 'Chồng:',
+            sName: '',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -313,7 +313,7 @@ const genData = [
           follow: [{
             sName: 'Vợ: Nguyễn Thị Thu',
             sBirthday: '1924',
-            sDeathday: '12/04/2012',
+            sDeathday: '12/04/2012 (AL)',
             sNote: ''
           }]
         },
@@ -726,11 +726,11 @@ const genData = [
         info: {
           mName: 'Ông: Trần Anh Hòa',
           mBirthday: '1945',
-          mDeathday: '08/04/2014',
+          mDeathday: '08/04/2014 (AL)',
           mNote: '',
           follow: [{
             sName: 'Vợ: Dương Thị Bích Lợi',
-            sBirthday: '20/07/1947',
+            sBirthday: '20/07/1947 (DL)',
             sDeathday: '',
             sNote: ''
           },
@@ -748,10 +748,10 @@ const genData = [
         info: {
           mName: 'Ông: Trần Văn Hạnh',
           mBirthday: '1948',
-          mDeathday: '05/04/1970',
+          mDeathday: '05/04/1970 (AL)',
           mNote: 'Liệt sỹ',
           follow: [{
-            sName: '',
+            sName: '',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -804,7 +804,7 @@ const genData = [
       follow: [{
         sName: 'Vợ: Nguyễn Thị Thu',
         sBirthday: '1924',
-        sDeathday: '12/04/2012',
+        sDeathday: '12/04/2012 (AL)',
         sNote: ''
       }]
     },
@@ -877,12 +877,12 @@ const genData = [
         id:'1-3-1-5',
         info: {
           mName: 'Ông: Trần Đức Tâm',
-          mBirthday: '05/04/1956',
+          mBirthday: '05/04/1956 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
             sName: 'Vợ: Nguyễn Thị Chín',
-            sBirthday: '24/01/1962',
+            sBirthday: '24/01/1962 (DL)',
             sDeathday: '',
             sNote: ''
           }]
@@ -929,7 +929,7 @@ const genData = [
           mDeathday: '',
           mNote: 'Không lấy chồng nhưng có con trai mang họ mẹ',
           follow: [{
-            sName: '',
+            sName: '',
             sBirthday: '',
             sDeathday: '',
             sNote: ''
@@ -1141,12 +1141,12 @@ const genData = [
         id: '1-2-2-1-1',
         info: {
           mName: 'Ông: Trần Ngọc Minh',
-          mBirthday: '10/08/1970',
+          mBirthday: '10/08/1970 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
             sName: 'Vợ: Trần Đông Hới',
-            sBirthday: '01/04/1980',
+            sBirthday: '01/04/1980 (DL)',
             sDeathday: '',
             sNote: ''
           }]
@@ -1223,7 +1223,7 @@ const genData = [
         id: '1-2-2-2-1',
         info: {
           mName: 'Bà: Trần Thị Hoài Thanh',
-          mBirthday: '06/02/1979',
+          mBirthday: '06/02/1979 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -1255,12 +1255,12 @@ const genData = [
         id: '1-2-2-2-3',
         info: {
           mName: 'Ông: Trần Đức Kiên',
-          mBirthday: '18/08/1986',
+          mBirthday: '18/08/1986 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
             sName: 'Vợ: Nguyễn Thị Xen',
-            sBirthday: '02/12/1991',
+            sBirthday: '02/12/1991 (DL)',
             sDeathday: '',
             sNote: ''
           }]
@@ -1295,12 +1295,12 @@ const genData = [
         id: '1-2-2-5-1',
         info: {
           mName: 'Bà: Trần Lệ Xuân',
-          mBirthday: '24/02/1985',
+          mBirthday: '24/02/1985 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
             sName: 'Chồng: Tạ Đồng Khởi',
-            sBirthday: '24/02/1985',
+            sBirthday: '24/02/1985 (DL)',
             sDeathday: '',
             sNote: ''
           }]
@@ -1327,7 +1327,7 @@ const genData = [
         id: '1-2-2-5-3',
         info: {
           mName: 'Bà: Trần Thị Thu Yên',
-          mBirthday: '03/06/1994',
+          mBirthday: '03/06/1994 (DL)',
           mDeathday: '',
           mNote: '',
           follow: [{
@@ -1347,11 +1347,11 @@ const genData = [
     info: {
       mName: 'Ông: Trần Anh Hòa',
       mBirthday: '1945',
-      mDeathday: '08/04/2014',
+      mDeathday: '08/04/2014 (AL)',
       mNote: '',
       follow: [{
         sName: 'Vợ: Dương Thị Bích Lợi',
-        sBirthday: '20/07/1947',
+        sBirthday: '20/07/1947 (DL)',
         sDeathday: '',
         sNote: ''
       },
@@ -1591,7 +1591,7 @@ const genData = [
           mNote: '',
           follow: [{
             sName: 'Vợ: Đào Thị Phương',
-            sBirthday: '11/10/1989',
+            sBirthday: '11/10/1989 (DL)',
             sDeathday: '',
             sNote: ''
           }]
@@ -1619,12 +1619,12 @@ const genData = [
     id:'1-3-1-5',
     info: {
       mName: 'Ông: Trần Đức Tâm',
-      mBirthday: '05/04/1956',
+      mBirthday: '05/04/1956 (DL)',
       mDeathday: '',
       mNote: '',
       follow: [{
         sName: 'Vợ: Nguyễn Thị Chín',
-        sBirthday: '24/01/1962',
+        sBirthday: '24/01/1962 (DL)',
         sDeathday: '',
         sNote: ''
       }]
@@ -1719,7 +1719,7 @@ const genData = [
       mDeathday: '',
       mNote: 'Không lấy chồng nhưng có con trai mang họ mẹ',
       follow: [{
-        sName: '',
+        sName: '',
         sBirthday: '',
         sDeathday: '',
         sNote: ''
@@ -2027,16 +2027,16 @@ const FamilyLine = () => {
                     <p>{el.info.mName}</p>
                     <p>Sinh: {el.info.mBirthday}</p>
                     <p>Mất: {el.info.mDeathday}</p>
-                    <p>Tiểu sử:  {el.info.mNote} </p>
+                    <p>Ghi chú:  {el.info.mNote} </p>
                   </div>
-                  {el.info.follow.map((el1, index1) => (            
+                  {el.info.follow.map((el1, index1) => ( el1.sName.length > 0 &&             
                     <div key={index1} className='secondary-info'>
                       <p>{el1.sName}</p>
                       <p>Sinh: {el1.sBirthday}</p>
                       <p>Mất: {el1.sDeathday}</p>
-                      <p>Tiểu sử: {el1.sNote}</p>
+                      <p>Ghi chú: {el1.sNote}</p>
                       {/* {el.parent.mNote ? (
-                        <p>Tiểu sử:  {el.parent.mNote} </p>
+                        <p>Ghi chú:  {el.parent.mNote} </p>
                       ) : ''} */}
                     </div>
                   ))}
@@ -2048,14 +2048,14 @@ const FamilyLine = () => {
                       <p>{el2.info.mName}</p>
                       <p>Sinh: {el2.info.mBirthday}</p>
                       <p>Mất: {el2.info.mDeathday}</p>
-                      <p>Tiểu sử: {el2.info.mNote} </p>
+                      <p>Ghi chú: {el2.info.mNote} </p>
                     </div>
-                    {el2.info.follow.map((el3, index3) => (
+                    {el2.info.follow.map((el3, index3) => (el3.sName.length > 0 && 
                       <div key={index3} className='secondary-info'>
                         <p>{el3.sName}</p>
                         <p>Sinh: {el3.sBirthday}</p>
                         <p>Mất: {el3.sDeathday}</p>
-                        <p>Tiểu sử: {el3.sNote}</p>
+                        <p>Ghi chú: {el3.sNote}</p>
                       </div>
                     ))}
                   </li>
